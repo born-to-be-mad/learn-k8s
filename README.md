@@ -53,5 +53,7 @@ The last statement in the output states that kubectl can talk to minikube.
   which contains a deployment called "helloworld", pulling from the image karthequian/helloworld, and exposes port 80 of the container to the pod. 
 * `kubectl expose deployment helloworld --type=NodePort` to expose the pod to the public internet using the kubectl expose command.
   The `--type=NodePort` flag exposes the deployment outside of the cluster. If you're using this on a cloud provider, you can use a `--type=LoadBalancer` that will provision an external IP address would be provisioned to access the service.
-* `minikube service helloworld` will open your web browser to your application that is running in Kubernetes! 
- 
+* `minikube service helloworld` will open your web browser to your application that is running in Kubernetes!
+
+# Linux tricks
+* `chmod +x ./kubectl` to make the kubectl executable.
