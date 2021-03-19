@@ -7,6 +7,11 @@
 * `java -Djarmode=layertools -jar target/greeting-0.0.1-SNAPSHOT.jar list` to list the layers inside the artifact.
 * `java -Djarmode=layertools -jar target/greeting-0.0.1-SNAPSHOT.jar  extract` to extract the layers into folders.
 
+* `kubectl create -f k8s/greeting.yaml` to run the K8S cluster.
+* `kubectl delete -f k8s/greeting.yaml` to delete the K8S cluster.
+* `kubectl delete deployment/greeting svc/greeting` to delete the K8S cluster.
+* `kubectl get svc,deployment,pods` to see all by enumerating them.
+
 # Getting Started
 
 ### Reference Documentation

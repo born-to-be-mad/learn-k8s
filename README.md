@@ -42,13 +42,19 @@ Two main features that allow Kubernetes Clusters to scale are 'registration' and
 * Rancher - fullstack container management platform
 * Nomad
 
+# K8S  commands
+* `kubectl version` to check versions.
+* `kubectl config get-contexts` to check the context.
+* `kubectl config use-context docker-desktop` to switch the context.
+* `kubectl config use-context minikube` to switch the context.
+* `kubectl get nodes` to check nodes.
+* `kubectl get all` to see all our resources running.
+* `kubectl get svc,deployment,pods`
 
 # Samples
 ## hello world
 * `minikube start` to get minikube up and running. This command sets up a Kubernetes dev environment via VirtualBox.
 The last statement in the output states that kubectl can talk to minikube.
-* `kubectl get nodes` to check nodes
-* `kubectl get all` to see all our resources running
 * `kubectl create -f helloworld.yaml` this command creates a deployment resource from the file helloworld.yaml, 
   which contains a deployment called "helloworld", pulling from the image karthequian/helloworld, and exposes port 80 of the container to the pod. 
 * `kubectl expose deployment helloworld --type=NodePort` to expose the pod to the public internet using the kubectl expose command.
