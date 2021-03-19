@@ -71,3 +71,84 @@ The last statement in the output states that kubectl can talk to minikube.
 
 # Linux tricks
 * `chmod +x ./kubectl` to make the kubectl executable.
+
+# Useful links
+* [What is K8s] https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english
+  * Kubernetes intro: https://www.slideshare.net/RohitJnagal/kubernetes-intro-public-kubernetes-meetup-4212015
+* Features: https://www.openshift.com/container-platform/kubernetes.html
+* Pods: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+* Kubelet: https://kubernetes.io/docs/admin/kubelet/
+* Kube-proxy: https://kubernetes.io/docs/admin/kube-proxy/
+* K8s blog: http://blog.kubernetes.io/
+* Kubernetes versus swarm: https://platform9.com/blog/kubernetes-docker-swarm-compared/
+* Docker versus mesos versus kubernetes: https://mesosphere.com/blog/docker-vs-kubernetes-vs-apache-mesos/
+* Docker support for k8s: https://www.docker.com/kubernetes
+* Kubernetes the hard way: https://github.com/kelseyhightower/kubernetes-the-hard-way
+* Kubeadm: http://blog.kubernetes.io/2016/09/how-we-made-kubernetes-easy-to-install.html
+* Kops: https://github.com/kubernetes/kops
+  * Get started with Kops: https://cloudacademy.com/blog/kubernetes-operations-with-kops/
+* Azure container
+  service: https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough
+  * Azure container
+    service: https://azure.microsoft.com/en-us/blog/introducing-azure-container-service-aks-managed-kubernetes-and-azure-container-registry-geo-replication/?cdn=disable
+  * Azure Container service + Kubernetes: https://azure.microsoft.com/en-us/services/container-service/
+* Oracle Container
+  Engine: https://blogs.oracle.com/developers/announcing-oracle-container-engine-and-oracle-container-registry-service
+* K8s v/s openshift: https://www.openshift.com/container-platform/kubernetes.html
+* Addon list: https://kubernetes.io/docs/concepts/cluster-administration/addons/
+* Rancher: https://github.com/rancher/rancher#installation
+* Nomad: https://www.nomadproject.io/
+* Minikube: https://github.com/kubernetes/minikube
+
+ARCHITECT: http://news.architecht.io/issues/with-oracle-on-board-kubernetes-has-to-be-the-de-facto-standard-for-container-orchestration-73880
+
+Rolling deployments: https://tachingchen.com/blog/Kubernetes-Rolling-Update-with-Deployment/
+Kubernetes examples: http://kubernetesbyexample.com/deployments/
+Jobs: https://kubernetes.io/docs/tasks/job/coarse-parallel-processing-work-queue/
+Service Definition: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
+Using a service to expose your applications: https://kubernetes.io/docs/tutorials/kubernetes-basics/expose-intro/
+Networking with Services: https://kubernetes.io/docs/concepts/services-networking/service/
+Pods + Services: https://thenewstack.io/kubernetes-way-part-one/
+Connecting applications with
+services : https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
+
+Service networking: https://kubernetes.io/docs/concepts/services-networking/service/#the-gory-details-of-virtual-ips
+
+Kubeadm: http://blog.kubernetes.io/2016/09/how-we-made-kubernetes-easy-to-install.html
+
+Kubernetes networks: https://kubernetes.io/docs/concepts/cluster-administration/networking/
+
+
+Logging with kibana and elasticsearch: https://kubernetes.io/docs/tasks/debug-application-cluster/logging-elasticsearch-kibana/
+
+Logging with fluentd, kibana and elasticsearch: https://logz.io/blog/kubernetes-log-analysis/
+
+Fluent chart: https://github.com/kubernetes/charts/tree/master/stable/fluent-bit
+
+Fluentd architecture: https://www.fluentd.org/architecture
+
+ELK stack on kubernetes: https://crondev.com/elk-stack-kubernetes/
+
+cAdvisor: https://hub.docker.com/r/google/cadvisor/
+
+Monitoring: http://blog.kubernetes.io/2017/05/kubernetes-monitoring-guide.html
+
+Comparing monitoring options: http://rancher.com/comparing-monitoring-options-for-docker-deployments/
+
+Monitoring: https://sysdig.com/blog/monitoring-kubernetes-with-sysdig-cloud/
+
+Prometheus: https://jaxenter.com/prometheus-monitoring-pros-cons-136019.html
+
+Heapster: https://deis.com/blog/2016/monitoring-kubernetes-with-heapster/
+
+Helm charts: https://github.com/kubernetes/charts/tree/master/stable
+
+Kubernetes authentication: https://kubernetes.io/docs/admin/authentication/
+
+RBAC+ABAC: http://blog.kubernetes.io/2017/04/rbac-support-in-kubernetes.html
+
+RBAC Support: http://blog.kubernetes.io/2017/04/rbac-support-in-kubernetes.html
+
+RBAC config: https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/
+
+
