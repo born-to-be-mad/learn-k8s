@@ -1,9 +1,11 @@
 # Hot to run
 * `docker build -t dma1979/gs-spring-boot-docker .` to build the container
-* `docker run -p 8100:8100 -d dma1979/gs-spring-boot-docker` to run the container
+* `docker run -p 8100:8100 -d --name boot-greetings dma1979/gs-spring-boot-docker` to run the container
 * open `http://localhost:8100/hello` or  run `curl http://localhost:8100/hello` or 'http :8100/hello' to check
 * `docker container rm -f  <CONTAINER_ID>` to force stop/remove
-
+* `jar tf target/greeting-0.0.1-SNAPSHOT.jar` to inspect the jar file.
+* `java -Djarmode=layertools -jar target/greeting-0.0.1-SNAPSHOT.jar list` to list the layers inside the artifact.
+* `java -Djarmode=layertools -jar target/greeting-0.0.1-SNAPSHOT.jar  extract` to extract the layers into folders.
 
 # Getting Started
 
