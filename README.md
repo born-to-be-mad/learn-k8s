@@ -55,5 +55,19 @@ The last statement in the output states that kubectl can talk to minikube.
   The `--type=NodePort` flag exposes the deployment outside of the cluster. If you're using this on a cloud provider, you can use a `--type=LoadBalancer` that will provision an external IP address would be provisioned to access the service.
 * `minikube service helloworld` will open your web browser to your application that is running in Kubernetes!
 
+# Minikube commands
+
+* `minikube addons list`  to view all addons. The Kubernetes Dashboard comes bundled as an addon.
+* `minikube addons enable dashboard` to enable the dashboard.
+* `minikube addons enable metrics-server` to enable the metrics server.
+* `minikube dashboard` to open the page with dashboard.
+
+
+#### Handout Links
+
+[Kubernetes Dashboard doc] https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
+[Dashboard - Full Featured Web Interface for Kubernetes] http://blog.kubernetes.io/2016/07/dashboard-web-interface-for-kubernetes.html
+[Dashboard Github] https://github.com/kubernetes/dashboard
+
 # Linux tricks
 * `chmod +x ./kubectl` to make the kubectl executable.
