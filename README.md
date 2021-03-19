@@ -2,7 +2,7 @@
 *Kubernetes* is an open-source platform designed to automate deploying, scaling, and operating application containers.
 *Kubernetes* is an open-source container-orchestration system for automating computer application deployment, scaling, and management. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.
 
-Two main features that allow Kubernetes Clusters to scale are registration and discovery.
+Two main features that allow Kubernetes Clusters to scale are 'registration' and 'discovery'.
 
 *KS Architecture Overview*:
 * Master Node (APi server, scheduler, Controller Manager)
@@ -30,14 +30,14 @@ Two main features that allow Kubernetes Clusters to scale are registration and d
 * "kube-proxy" a process that runs on all worker nodes. It has 3 modes: User-space, Iptables, Ipvs.
 
 # How to install
-## Install on windows
+## Install on Windows
 * go to https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/ and install `kubectl`
   * open powershel and check it `kubectl version --client`
 * go to https://minikube.sigs.k8s.io/docs/start/  and install `minikube`
   * `systeminfo`
 
 ## Alternative Implementations to K8S
-* Mesos
+* Mesos (Mesosphere DC/OS)
 * Docker Swarm
 * Rancher - fullstack container management platform
 * Nomad
