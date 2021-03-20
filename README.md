@@ -57,7 +57,7 @@ Two main features that allow Kubernetes Clusters to scale are 'registration' and
 minikube delete
 minikube config set memory 8192
 minikube config set cpus 4
-minikube start
+minikube start --vm-driver="hyperv" --hyperv-virtual-switch="minikube"
 ```
 
 * start without driver `minikube start --vm-driver=none`

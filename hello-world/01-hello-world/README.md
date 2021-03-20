@@ -1,6 +1,8 @@
 ## Understand the basics of the deployment and service
-When working with Kubernetes, you should get familiar with these YAML files.
+When working with Kubernetes, you should get familiar with YAML files.
 
+* `minikube start --vm-driver="hyperv" --hyperv-virtual-switch="minikube"` to start minikube with VM driver and switch.
+  * `kubectl get nodea` should return 'minikube' if it is installed correctly. 
 * `kubectl get all` shows us pods, services and deployments that are running that build the helloworld application. 
   Let's peel this onion and figure out what's going on.
 * `kubectl get deploy/helloworld -o yaml` to take a look at the deployment YAML that runs the application, run . 
