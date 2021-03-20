@@ -51,6 +51,17 @@ Two main features that allow Kubernetes Clusters to scale are 'registration' and
 * `kubectl get all` to see all our resources running.
 * `kubectl get svc,deployment,pods`
 
+# Minikube configuration
+* Delete and setup
+```
+minikube delete
+minikube config set memory 8192
+minikube config set cpus 4
+minikube start
+```
+
+* start without driver `minikube start --vm-driver=none`
+
 # Samples
 ## hello world
 * `minikube start` to get minikube up and running. This command sets up a Kubernetes dev environment via VirtualBox.
